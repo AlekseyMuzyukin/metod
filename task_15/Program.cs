@@ -34,8 +34,6 @@ else
 {
     Console.WriteLine ("Вы ввели неверное значение");
 }
-
 return ("-1");
-
 }
 string? WE =  WeekEnd(numDay);

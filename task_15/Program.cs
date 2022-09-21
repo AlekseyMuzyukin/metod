@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите номер дня недели: ");
 string? numDay = Console.ReadLine();
-string? WeekEnd (string? week)
+string? GetTypeDay (string? week)
 {
     if (numDay == "1")
 {
@@ -36,4 +36,4 @@ else
 }
 return ("-1");
 }
-string? WE =  WeekEnd(numDay);
+string? GTypeDay =  GetTypeDay(numDay);

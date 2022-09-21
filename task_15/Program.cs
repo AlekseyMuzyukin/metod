@@ -1,6 +1,8 @@
 ﻿Console.WriteLine("Введите номер дня недели: ");
 string? numDay = Console.ReadLine();
-if (numDay == "1")
+string? WeekEnd (string? week)
+{
+    if (numDay == "1")
 {
     Console.WriteLine ("Рабочий день");
 }
@@ -31,4 +33,10 @@ else if (numDay == "7")
 else
 {
     Console.WriteLine ("Вы ввели неверное значение");
-} 
+}
+
+return ("-1");
+
+}
+
+string? WE =  WeekEnd(numDay);

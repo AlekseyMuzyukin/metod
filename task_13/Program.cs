@@ -10,4 +10,5 @@ if (number!.Length < 3)
     return;
 }
 char Num = number![2];
-Console.WriteLine(Num);
+
+Console.WriteLine($"Третья цифра числа: {Num}" );
